@@ -1,0 +1,57 @@
+@font-face {
+    font-family:ComicNeueSansID ;
+    src:"./Fonts";
+}
+html,figure,body,div,input,a,p,h1,h2,h3,ul{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    list-style:none;
+    text-decoration:none;
+    font-family:ComicNeueSansID;
+}
+
+h1{
+    color: rgb(83, 40, 0);
+    font-family:ComicNeueSansID;
+}
+*{
+    border:solid;
+    font-family:ComicNeueSansID;
+}
+h2{
+    color:rgb(9, 73, 0);
+    font-family:ComicNeueSansID;
+}
+h3{
+    color:rgb(0, 48, 204);
+    font-family:ComicNeueSansID;
+}
+header{
+    display:flex;
+    height:150px;
+    background-color: rgb(255, 145, 0);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+footer{
+    display:flex;
+    background-color: rgb(110, 173, 255);
+    flex-direction: column;
+
+}
+footer div{
+    display:Flex;
+    flex-direction: row;
+    justify-content:space-around
+}
+.JogosIncriveis{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(0, 165, 27);
+    height: 500px;
+    
+}
